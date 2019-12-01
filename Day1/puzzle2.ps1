@@ -5,7 +5,7 @@ foreach ($number in $numbers) {
     $totalFuel = @()
     $totalFuel += $fuel
     While ($fuel -gt 0) {
-        [decimal]$fuel = ([math]::floor($fuel/3) - 2)
+        $fuel = ([math]::floor($fuel/3) - 2)
         if (-not ($fuel -lt 0)) {
             $totalFuel += $fuel
         }

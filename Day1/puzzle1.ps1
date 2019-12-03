@@ -1,3 +1,4 @@
+# Day 1 Puzzle 1
 $numbers = (Import-PowerShellDataFile -Path $PSScriptRoot\input.psd1).numbers
 $dorp = @()
 foreach($number in $numbers) {
